@@ -27,6 +27,7 @@
 # https://www.docker.com/blog/faster-multi-platform-builds-dockerfile-cross-compilation-guide/
 
 ARG BASE_IMAGE=ubuntu:22.04
+RUN appt-get update
 
 
 ######################################################################
